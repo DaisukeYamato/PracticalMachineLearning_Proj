@@ -1,0 +1,431 @@
+exp(-6+0.05*40+1*3.5)/(1+exp(-6+0.05*40+1*3.5))
+log(0.5/0.5)
+-(-6+3.5)/0.05
+2^30
+1+30*31/2
+(27.00-31.18/31.18)
+((27.00-31.18)/31.18)
+10000*((27.00-31.18)/31.18)
+10000*(1 + ((27.00-31.18)/31.18))
+log(1+ ((27.00-31.18)/31.18))
+(1+((27.00-31.18)/31.18))^12
+1-(1+((27.00-31.18)/31.18))^12
+12*log(1+ ((27.00-31.18)/31.18))
+(1+((27.00-31.18)/31.18))^12-1
+(30.51-31.18)/31.18
+10000*(30.51-31.18)/31.18
+10000*(1+(30.51-31.18)/31.18)
+log(1+ ((30.51-31.18)/31.18))
+q()
+1-0.07^10
+1.0-0.07^10
+7^10
+1.0-0.93^10
+0.61*0.23
+0.73*0.77
+0.61*0.23/(0.61*0.23+0.77*0.73)
+40*0.2
+75*0.08
+0.44*20
+y <- matrix(c(5,2,7), nrow=3)
+y
+x <- matrix(c(1,2,3), nrow=3)
+A <- matrix(c(1,4,7,2,4,8,6,1,3), nrow=3, ncol=3)
+A
+A <- matrix(c(1,4,7,2,4,8,6,1,3), nrow=3, ncol=3, byrow=T)
+A
+t(y)
+t(y) * A
+t(y) %*% A
+t(y) %*% A %*% x
+A <- matrix(c(1,2, 1, 4), nrow=2)
+A
+y <- matrix(c(1,2), nrow=2)
+y
+solve(A)
+solve(A) %*% y
+my_mu <- matrix(c(0.01, 0.04, 0.02), nrow=3)
+my_mu
+my_s <- matrix(c(0.1, 0.3,0.1,0.3,0.15,-0.2,0.1,-0.2,0.08),nrow=3)
+my_s
+my_mu
+mean(my_mu)
+x <- matrix(c(1/3,1/3,1/3), nrow=3)
+x
+t(x) %*% my_s %*% x
+(9.51-10)/4.65
+qnorm(0.01)
+(9.51-10)/(4.65/sqrt(40))
+qnorm(-0.666)
+qnorm(0.666)
+0.91*0.02+0.09*0.9
+0.09*0.9/0.91*0.02+0.09*0.9
+0.09*0.9/(0.91*0.02+0.09*0.9)
+cal_g <- c(-5,-4,-3,-2,1,7,10,11,17,18)
+median(cal_g)
+18/sqrt(56)
+qnorm(1)
+pnorm(1)
+pnorm(2)
+pnorm(-1)
+pnorm(1) - pnorm(-1)
+qnorm(0.8)
+qnorm(0)
+pnorm(0.8416)
+qnorm(0.8) * 18/sqrt(56)
+qnorm(0.8) * 18/sqrt(33)
+qnorm(0.8) * 18/sqrt(34)
+qnorm(0.9) * 18/sqrt(34)
+qnorm(0.9) * 18/sqrt(55)
+qnorm(0.9) * 18/sqrt(33)
+50*(1+0.03-0.02)
+compC <- function(r, d, u, S, X, T){
+result <- ((r + 1) ^T -d)*(u*S-X)/((r+1)^T*(u-d));
+return(result);}
+compC <- function(r, d, u, Cu, Cd){
+C <- (1 + r - d)/(u-d) * Cu/(1+r) + (u-1-r)/(u-d)*Cd/(1+r);
+return(C);
+}
+compC
+compC(r=0.1,d=15/30, u=45/30, Cu=45-34,Cd=0)
+save
+q()
+0.05/(5*4/2)
+6+25+3
+6+15+3
+6+16+4
+24/50*7
+71/144.
+224/389
+a <- 71/144.
+b <- 224/389
+b
+1.96 * sqrt(a * (1-a)/144 + b * (1-b)/389)
+sqrt(a * (1-a)/144 + b * (1-b)/389)
+35/250
+sqrt(0.36 * (1-0.36)/50)
+a <- 493/1037
+b <- 596 /1028
+sqrt(a*(1-a)/1037 + b*(1-b)/1028)
+sqrt(0.3*0.7/50)
+sqrt(0.5*0.5/39)
+sqrt(0.5*0.5/39)*1.96
+(29.49-28.64)/28.64
+(109.04-105.06)/105.06
+(29.49-28.64)/28.64
+log(109.04/105.06)
+log(29.49/28.64)
+(109.04-105.06)/105.06
+R_1 <- (109.04-105.06)/105.06
+(1 + R_1)^12 -1
+R_2 <- (29.49-28.64)/28.64
+(1 + R_2)^12 -1
+r_1 <- log(109.04/105.06)
+12 * r_1
+r_2 <- log(29.49/28.64)
+12 * r_2
+(1 + R_1)^12 -1
+((1 + R_1)^12 -1) * 10000
+(1 + R_2)^12 -1
+0.2*R_1 + 0.8*R_2
+log(1 + 0.2*R_1 + 0.8*R_2)
+100000*(0.001 )
+qnorm(0.05)
+100000*(0.001 - 1.645 * 0.05)
+100000*(0.001 - 1.645 * 0.09)
+100000*(0.01 - 1.645 * 0.09)
+100000*(0.001 - 1.645 * sqrt(12)*0.09)
+100000*(0.001 - 1.645 * sqrt(12*0.09))
+100000*(0.001 - 1.645 * sqrt(12)*0.05)
+100000*(0.01 - 1.645 * sqrt(12)*0.09)
+(0.001 - 1.645 * 0.09)
+(exp((0.001 - 1.645 * 0.09) ) - 1) * 100000
+(exp((0.001 - 1.645 * 0.05) ) - 1) * 100000
+(exp((0.01 - 1.645 * 0.09) ) - 1) * 100000
+(exp((0.001 - 1.645 * sqrt(12) * 0.05) ) - 1) * 100000
+(exp((0.001*12 - 1.645 * sqrt(12) * 0.05) ) - 1) * 100000
+(exp((0.01*12 - 1.645 * sqrt(12) * 0.09) ) - 1) * 100000
+3/0.55
+1.5/(1-5.45^2)
+1.5^2/(1-5.45^2)
+1.5^2/(1-0.45^2)
+1.5^2*0.45
+2.8213^2*0.45
+2.8213*0.45
+0.77^2
+sqrt(0.6)
+sqrt(0.72)
+64.68-0.62*81.4
+13.1 - 64.68-0.62*81.4
+13.1 -( 64.68-0.62*81.4 )
+2.869/3.008
+76+0.43*30 +0.35*72
+950^(1.08)^8
+950*(1.08)^8
+ls
+0.88^4
+1-0.88^4
+qnorm(0.01)
+qnorm(0.025)
+qnorm(0.01)
+248.3-244.8 - abs(qnorm(0.01)) * 2/sqrt(10)
+248.3-244.8 + abs(qnorm(0.01)) * 2/sqrt(10)
+248.3-244.8
+3.5-2.65
+3.5-6.48
+3.5-6.13
+3.5-0.87
+195528-1627
+1627/2
+193901/828
+813.5/234.18
+pf(3.47,2,828,lower.tail=F)
+1627/193901
+binom(1)
+bnorm(1)
+dbinom(18:100,100,0.11)
+sum(dbinom(18:100,100,0.11)()
+)
+sum(dbinom(18:100,100,0.11))
+sum(dbinom(17:100,100,0.11))
+sum(dbinom(0:100,100,0.11))
+sum(dbinom(11:100,100,0.11))
+sum(dbinom(15:100,100,0.11))
+sum(dbinom(17:100,100,0.11))
+112/625
+513/625
+46*0.1792
+579*0.1792
+46*0.8208
+579*0.8208
+0.05*0.93/(0.05*0.93+0.95*0.03)
+1-(3819.99/15079.02*251/243)
+1-(3819.99/15079.02*251/244)
+1-(3819.99/15079.02*251/243)
+36.5 + 3*73
+49 + 12 * 98
+36.5 + 73*12
+49 + 98*3
+0.43*12
+5.59*sqrt(12)
+((0.43*12-0.08*12)/(sqrt(12)*5.59))
+0.49*12
+2.90*sqrt(12)
+((0.49*12-0.08*12)/(sqrt(12)*2.90))
+1.28*12
+8.45*sqrt(12)
+((1.28*12-0.08*12)/(sqrt(12)*8.45))
+1.28/3+0.49/3+0.43/3
+1.28*-0.22+0.49*1.71+0.43*-0.49
+1.28*-0.74+0.49*1.15+0.43*-0.58
+1.28*-0.74+0.49*1.15+0.43*0.58
+0.43*0.33+0.49*0.33+1.28*0.33
+0.43*-0.22+0.49*1.71+1.28*-0.49
+0.43*-0.74+0.49*1.15+1.28*0.58
+0.43*0.45+0.49*0.28+1.28*0.27
+0.08*0.5 + 1.76*0.5
+0.08*0.38 + 1.76*0.62
+0.08*0.45 + 1.76*0.55
+6.53*0.55 +
+0
+6.53*0.55
+6.53*sqrt(0.55)
+6.53*0.55^2
+6.53*sqrt(0.55)
+6.53*0.55
+-197*0.55
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*1.96)*100000
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*qnorm(0.05))*100000
+((0.0043*0.23+0.0049*0.87+0.0128*-0.10)+(0.0559*0.23+0.0029*0.87+0.0845*-0.10)*qnorm(0.025))*100000
+(0.0040 + 0.0284*qnorm(0.05))*100000
+0.23 *1.00139  + 0.87 *0.16639 -0.10 *1.5262
+(0.0040 + 0.0284*qnorm(0.05))*100000
+qnorm(0.05)
+(0.0040 + 0.0284*qnorm(0.05))*100000
+log((0.0040 + 0.0284*qnorm(0.05))*100000)
+q()
+library(plyr)
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2",destfile="data.csv.bz2",method="curl")#
+# documentation#
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf",destfile="data_doc.pdf",method="curl")#
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf",destfile="data_doc_QA.pdf",method="curl")
+# library#
+library(caret)#
+#
+# functions#
+calc_range <- function(x, ...){#
+	my_range <- range(x, ...)#
+	return(diff(my_range))#
+}#
+#
+exp_input <- function(x){#
+	res = x[1];#
+	for (i in 2:length(x)){#
+			res <- paste(res, " + ", x[i], sep="");#
+	}#
+	return(res);#
+}#
+#
+# missClass = function(values,prediction){sum(((prediction > 0.5)*1) != values)/length(values)}#
+#
+missClass <- function(values, prediction){#
+	sum( prediction != values )/length(values)#
+}#
+#
+raw_training <- read.csv("pml-training.csv");#
+testing  <- read.csv("pml-testing.csv");#
+# features:#
+# - belt#
+### # avg_roll_belt, var_roll_belt, NA is so much and remove these features#
+# max_accel_belt, rng_accel_belt, var_accel_belt,#
+# var_gyros_belt, var_magnet_belt#
+# - arm#
+# var_accel_arm, max_magnet_arm, min_magnet_arm#
+# - dumbbel#
+# max_accel_dumbbell, var_gyros_dumbbell, max_magnet_dumbbell,#
+# min_magnet_dumbbell#
+# - glove#
+# picth_forearm, max_gyros_forearm, min_gyros_forearm#
+#raw_training$max_accel_belt <- apply(raw_training[,grep("accel_belt_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_accel_belt <- apply(raw_training[,grep("accel_belt_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)	#
+#raw_training$rng_accel_belt <- apply(raw_training[,grep("accel_belt_(x|y|z)",#
+#	names(raw_training))],1,calc_range,na.rm=T)#
+#raw_training$var_accel_belt <- apply(raw_training[,grep("accel_belt_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_gyros_belt <- apply(raw_training[,grep("gyros_belt_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_gyros_belt <- apply(raw_training[,grep("gyros_belt_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)#
+#raw_training$var_gyros_belt <- apply(raw_training[,grep("gyros_belt_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_magnet_belt <- apply(raw_training[,grep("magnet_belt_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_magnet_belt <- apply(raw_training[,grep("magnet_belt_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)#
+#raw_training$var_magnet_belt <- apply(raw_training[,grep("magnet_belt_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_accel_arm <- apply(raw_training[,grep("accel_arm_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_accel_arm <- apply(raw_training[,grep("accel_arm_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)	#
+#raw_training$var_accel_arm <- apply(raw_training[,grep("accel_arm_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_magnet_arm <- apply(raw_training[,grep("magnet_arm_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_magnet_arm <- apply(raw_training[,grep("magnet_arm_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)#
+#raw_training$var_magnet_arm <- apply(raw_training[,grep("magnet_arm_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_accel_dumbbell <- apply(raw_training[,grep("accel_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_accel_dumbbell <- apply(raw_training[,grep("accel_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)	#
+#raw_training$var_accel_dumbbell <- apply(raw_training[,grep("accel_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)		#
+##
+#raw_training$max_gyros_dumbbell <- apply(raw_training[,grep("gyros_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_gyros_dumbbell <- apply(raw_training[,grep("gyros_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)	#
+#raw_training$var_gyros_dumbbell <- apply(raw_training[,grep("gyros_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#	#
+#raw_training$max_magnet_dumbbell <- apply(raw_training[,grep("magnet_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_magnet_dumbbell <- apply(raw_training[,grep("magnet_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)#
+#raw_training$var_magnet_dumbbell <- apply(raw_training[,grep("magnet_dumbbell_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+#
+#raw_training$max_gyros_forearm <- apply(raw_training[,grep("gyros_forearm_(x|y|z)",#
+#	names(raw_training))],1,max,na.rm=T)#
+#raw_training$min_gyros_forearm <- apply(raw_training[,grep("gyros_forearm_(x|y|z)",#
+#	names(raw_training))],1,min,na.rm=T)#
+#raw_training$var_gyros_forearm <- apply(raw_training[,grep("gyros_forearm_(x|y|z)",#
+#	names(raw_training))],1,var,na.rm=T)#
+set.seed(1)#
+inTrain <- createDataPartition(y=raw_training$classe,p=0.6, list=F)#
+training <- raw_training[inTrain, ]#
+cv       <- raw_training[-inTrain, ]#
+p <- qplot(new_window, num_window, col=classe, data=training, alpha=0.1);#
+p # plot 1#
+#
+p <- qplot(roll_belt, pitch_belt, col=classe, data=training, alpha=0.1);#
+p # plot 2#
+#
+p <- qplot(yaw_belt, total_accel_belt, col=classe, data=training, alpha=0.1);#
+p # plot 3#
+#
+p <- qplot(roll_arm, pitch_arm, col=classe, data=training, alpha=0.1);#
+p # plot 4#
+#
+p <- qplot(yaw_arm, total_accel_arm, col=classe, data=training, alpha=0.1);#
+p # plot 5#
+#
+p <- qplot(roll_dumbbell, pitch_dumbbell, col=classe, data=training, alpha=0.1);#
+p # plot cand#
+#
+p <- qplot(yaw_dumbbell, total_accel_dumbbell, col=classe, data=training, alpha=0.1);#
+p #
+#
+p <- qplot(total_accel_dumbbell, yaw_dumbbell, col=classe, data=training, alpha=0.1);#
+p #
+#
+p <- qplot(roll_forearm, pitch_forearm, col=classe, data=training, alpha=0.1);#
+p # plot 6#
+#
+p <- qplot(yaw_forearm, total_accel_forearm, col=classe, data=training, alpha=0.1);#
+p #
+#
+# additional variables#
+#p <- qplot(max_accel_belt, min_accel_belt, col=classe, data=training, alpha=0.1);#
+#p#
+#p <- qplot(max_gyros_belt, min_gyros_belt, col=classe, data=training, alpha=0.1);#
+#p # bad#
+#p <- qplot(max_magnet_belt, min_magnet_belt, col=classe, data=training, alpha=0.1);#
+#p # bad#
+#p <- qplot(rng_accel_belt, var_accel_belt, col=classe, data=training, alpha=0.1);#
+#p#
+# old#
+#p <- qplot(max_accel_belt, min_accel_belt, col=classe, data=training, alpha=0.1);#
+#p#
+#p <- qplot(rng_accel_belt, var_accel_belt, col=classe, data=training, alpha=0.1);#
+#p#
+#p <- qplot(max_gyros_belt, min_gyros_belt, col=classe, data=training, alpha=0.1));#
+#p#
+#p <- qplot(var_gyros_belt, var_magnet_belt, col=classe, data=training, alpha=0.1);#
+#p#
+##
+#p <- qplot(max_magnet_arm, min_magnet_arm, col=classe, data=training, alpha=0.1);#
+#p # plot 1#
+##
+#p <- qplot(max_accel_dumbbell, min_accel_dumbbell, col=classe, data=training, alpha=0.1);#
+#p # plot 2#
+##
+#p <- qplot(var_gyros_dumbbell, max_magnet_dumbbell, col=classe, data=training, alpha=0.1);##
+##
+#p <- qplot(max_magnet_dumbbell, min_magnet_dumbbell, col=classe, data=training, alpha=0.1);#
+#p # plot 3##
+##
+#p <- qplot(max_gyros_forearm, min_gyros_forearm, col=classe, data=training, alpha=0.1);#
+#p#
+# ---#
+#
+input_vars_list <- c("new_window", "num_window", "roll_belt", "pitch_belt", "yaw_belt", #
+	"total_accel_belt", "roll_arm", "pitch_arm", "yaw_arm", "total_accel_arm", #
+	"roll_dumbbell", "pitch_dumbbell", "yaw_dumbbell", "total_accel_dumbbell",#
+	"roll_forearm", "pitch_forearm", "yaw_forearm", #
+	"total_accel_forearm");#
+input_vars <- exp_input(input_vars_list)#
+#
+set.seed(2);
+modFit <- train( eval(parse(text=paste("classe ~", input_vars, sep="")))#
+	,data=training, method="rf")#
+ed <- Sys.time();
